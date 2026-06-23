@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zorellium Studio",
   description: "Artist • Developer • VTuber",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
